@@ -22,7 +22,7 @@ exports.index = async (req, res, next) => {
   ]);
 
   res.render("index", {
-    title: "Local Library Home",
+    title: "地域図書館ホームページ",
     book_count: numBooks,
     book_instance_count: numBookInstances,
     book_instance_available_count: numAvailableBookInstances,
